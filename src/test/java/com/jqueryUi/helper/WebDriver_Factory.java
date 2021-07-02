@@ -9,7 +9,7 @@ import org.openqa.selenium.opera.OperaDriver;
 
 public class WebDriver_Factory {
 
-    public static WebDriver createWebdriver() {
+    public static WebDriver createWebDriver() {
         String browser = System.getProperty("driver");
         if (browser != null) {
             switch (browser) {

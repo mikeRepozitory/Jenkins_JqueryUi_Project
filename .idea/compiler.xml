@@ -10,7 +10,11 @@
         <module name="Final_Jqueryui_MB" />
         <module name="JqueryUi_Jenkins_Project" />
         <module name="Projects_1" />
+        <module name="Final_Jenkins_JqueryUi_Project" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Final_Jenkins_JqueryUi_Project" target="15" />
+    </bytecodeTargetLevel>
   </component>
 </project>

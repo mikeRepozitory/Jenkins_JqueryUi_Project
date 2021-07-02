@@ -6,8 +6,8 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
         features = {"src/test/resources/features"},
         glue = {"com/jqueryUi"},
-        dryRun = false,
-        tags = ("@SortingTest")
+        dryRun = true,
+        tags = ("@Widgets")
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
 

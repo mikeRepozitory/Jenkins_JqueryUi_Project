@@ -64,12 +64,15 @@
             <version>3.0.1</version>
         </dependency>
 
-        <!-- webDriver manager===================================================================================== -->
+            <!-- webDriver manager===================================================================================== -->
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
             <version>4.4.3</version>
         </dependency>
+
+
+        
 
         <!-- extent reports ===================================================================================== -->
         <dependency>
