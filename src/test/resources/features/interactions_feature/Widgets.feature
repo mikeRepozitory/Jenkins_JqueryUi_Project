@@ -53,6 +53,48 @@ Feature: Interactions
     Then user hover over Rock
     Then user hover over classic and clicks on it
 
+  @Progressbar
+  Scenario: Progressbar Widget works as per requirement docs
+    Then user selects Progressbar Widget then selects Indeterminate Value
+    Then user clicks on Random Value - Determinate couple times make sure works
+    Then user clicks on Indeterminate 1 time make sure ir works
+    Then user clicks on Random Color couple times make sure works
+
+  @SelectMenu
+  Scenario: SelectMenu Widget works as per requirement docs
+    Then user selects SelectMenu Widget
+    Then user click on Select a speed and select "Medium"
+    And user click on Select a file and select "jQuery.js"
+    And user click on Select a number and select "1"
+    And user click on Select a title and select "Mr."
+    Then user verifies that all selected options are displayed
+
+  @Slider
+  Scenario: Slider Widget works as per requirement docs
+    Then user selects Slider Widget
+    Then user click on Slider handle and move it to the right and back to the left
+
+  @Spinner
+  Scenario: Spinner Widget works as per requirement docs
+    Then user selects Spinner Widget
+    Then user click on Select a value and types "8"
+    And user clicks on Toggle disable enable button twice
+    And user clicks on Toggle widget button twice
+    And user clicks on Set value to 5 ones
+    Then user clicks on Get value
+    Then the pop box should display number "5"
+
+  @Tabs
+  Scenario: Tabs Widget works as per requirement docs
+    Then user selects Tabs Widget
+    Then user click on every tab
+    And Tabs should work property
+
+  @Tooltip
+  Scenario: Tooltip Widget works as per requirement docs
+    Then user selects Tooltip Widget
+    Then user click on every avalable tab
+    And  Tooltip should work property
 
 
 
