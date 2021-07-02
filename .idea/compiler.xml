@@ -14,7 +14,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Final_Jenkins_JqueryUi_Project" target="15" />
+      <module name="Final_Jenkins_JqueryUi_Project" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
