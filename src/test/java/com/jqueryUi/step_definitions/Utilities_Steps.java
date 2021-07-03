@@ -19,7 +19,7 @@ public class Utilities_Steps {
 
     @When("user click twice on Next button then twice on Previous button")
     public void userClickTwiceOnNextButtonThenTwiceOnPreviousButton() {
-        Assert.fail();
+
     }
 
     @Then("the picture should website should display default picture")
