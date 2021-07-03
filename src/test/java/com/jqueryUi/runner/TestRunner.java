@@ -6,8 +6,8 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
         features = {"src/test/resources/features"},
         glue = {"com/jqueryUi"},
-        dryRun = true,
-        tags = ("@Effects")
+        dryRun = false,
+        tags = ("@Utilities")
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
 
@@ -15,4 +15,3 @@ public class TestRunner extends AbstractTestNGCucumberTests {
 //*[contains(text(), 'Sauce Labs Backpack')]
 }
 
- // Price (low to high)
