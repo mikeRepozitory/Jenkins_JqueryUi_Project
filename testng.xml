@@ -1,9 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
-    <test verbose="2" thread-count="5" preserve-order="true" name="Maven and Jenkins test">
-        <classes>
-            <class name="com.jqueryUi.runner.TestClass"/>
-        </classes>
-    </test>
-</suite>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="E:/QAMainFolder/All Projects Main folder/Cyram_LocalRepo/FINAL/Final_Jenkins_JqueryUi_Project/src/test/java/com/jqueryUi/runner/TestRunner.java"><classes/></test></suite>
