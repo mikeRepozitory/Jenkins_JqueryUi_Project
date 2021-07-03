@@ -94,8 +94,8 @@
 
     </dependencies>
 
-
-    <!-- maven build plugins ======================================================================= -->
+<!--
+    &lt;!&ndash; maven build plugins ======================================================================= &ndash;&gt;
     <build>
         <plugins>
             <plugin>
@@ -128,6 +128,6 @@
 
 
         </plugins>
-    </build>
+    </build>-->
 
 </project>
