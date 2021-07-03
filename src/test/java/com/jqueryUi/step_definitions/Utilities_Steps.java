@@ -1,6 +1,8 @@
 package com.jqueryUi.step_definitions;
+
 import io.cucumber.java.en.*;
 import org.testng.Assert;
+
 import static com.jqueryUi.base.Hook.driver;
 
 public class Utilities_Steps {
@@ -17,6 +19,7 @@ public class Utilities_Steps {
 
     @When("user click twice on Next button then twice on Previous button")
     public void userClickTwiceOnNextButtonThenTwiceOnPreviousButton() {
+        Assert.fail();
     }
 
     @Then("the picture should website should display default picture")
