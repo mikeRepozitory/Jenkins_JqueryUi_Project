@@ -8,6 +8,7 @@ public class Utilities_Steps {
 
     @Then("user selects Position button")
     public void userSelectsPositionButton() {
+        System.out.println("test the Utilities test");
     }
 
     @Then("user click on Image Cycler")
