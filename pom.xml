@@ -8,16 +8,32 @@
     <artifactId>Final_Jqueryui_MB</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+<!--
+
     <properties>
         <maven.compiler.source>15</maven.compiler.source>
         <maven.compiler.target>15</maven.compiler.target>
+    </properties>
+-->
 
+    <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
 
 
     <dependencies>
+
+        <!-- =================maven-compiler-plugin========================================================== -->
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.8.1</version>
+        </dependency>
+
+
+
+
         <!-- Cucumber===================================================================================== -->
         <dependency>
             <groupId>io.cucumber</groupId>
@@ -92,8 +108,7 @@
 
     </dependencies>
 
-<!--
-    &lt;!&ndash; maven build plugins ======================================================================= &ndash;&gt;
+    <!-- maven build plugins ======================================================================= -->
     <build>
         <plugins>
             <plugin>
@@ -126,6 +141,6 @@
 
 
         </plugins>
-    </build>-->
+    </build>
 
 </project>
