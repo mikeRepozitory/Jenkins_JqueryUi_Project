@@ -26,4 +26,27 @@ public class Utilities_Steps {
     public void thePictureShouldWebsiteShouldDisplayDefaultPicture() {
     }
 
+    @Then("user selects WidgetFactory button")
+    public void userSelectsWidgetFactoryButton() {
+    }
+
+    @Then("user click on all {int} color buttons")
+    public void userClickOnAllColorButtons(int arg0) {
+    }
+
+    @And("the color me should change")
+    public void theColorMeShouldChange() {
+    }
+
+    @Then("user clicks on Toggle disabled option")
+    public void userClicksOnToggleDisabledOption() {
+    }
+
+    @And("when user click again on cnage the color he should not be able to change it")
+    public void whenUserClickAgainOnCnageTheColorHeShouldNotBeAbleToChangeIt() {
+    }
+
+    @When("user clicks on go green all the squares should cnage to color green")
+    public void userClicksOnGoGreenAllTheSquaresShouldCnageToColorGreen() {
+    }
 }

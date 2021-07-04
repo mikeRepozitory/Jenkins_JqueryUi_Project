@@ -1,15 +1,26 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 188.917 s <<< FAILURE! - in TestSuite
-com.jqueryUi.runner.TestRunner.runScenario["Successfully selects AddClass", "Optional[Interactions]"](1)  Time elapsed: 186.208 s  <<< FAILURE!
-org.openqa.selenium.SessionNotCreatedException: 
-Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '4.0.0-beta-4', revision: '29f46d02dd'
-System info: host: 'CRA3YCONTRA', ip: '192.168.1.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
-Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
-Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:31831 after 180000 ms
-Caused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:31831 after 180000 ms
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 15.032 s <<< FAILURE! - in TestSuite
+com.jqueryUi.runner.TestRunner.runScenario["Successfully selects WidgetFactory colors", "Optional[Interactions]"](2)  Time elapsed: 5.661 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'user selects WidgetFactory button' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("user selects WidgetFactory button")
+public void user_selects_widget_factory_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user click on all {int} color me buttons")
+public void user_click_on_all_color_me_buttons(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the color me should change")
+public void the_color_me_should_change() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
 
