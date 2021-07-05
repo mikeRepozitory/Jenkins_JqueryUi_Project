@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1001100,
+              "duration": 1001900,
               "status": "passed"
             },
             "line": 5,
@@ -30,11 +30,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-04T21:26:14.573Z",
+        "start_timestamp": "2021-07-05T18:42:25.762Z",
         "before": [
           {
             "result": {
-              "duration": 4966375100,
+              "duration": 4192546800,
               "status": "passed"
             },
             "match": {
@@ -49,7 +49,7 @@
         "after": [
           {
             "result": {
-              "duration": 2591276400,
+              "duration": 2625778100,
               "status": "passed"
             },
             "match": {
@@ -73,6 +73,7 @@
           },
           {
             "result": {
+              "duration": 997200,
               "status": "passed"
             },
             "line": 10,
@@ -95,7 +96,6 @@
           },
           {
             "result": {
-              "duration": 1000100,
               "status": "passed"
             },
             "line": 12,
@@ -142,11 +142,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-04T21:26:22.254Z",
+        "start_timestamp": "2021-07-05T18:42:32.659Z",
         "before": [
           {
             "result": {
-              "duration": 2929751400,
+              "duration": 2262159600,
               "status": "passed"
             },
             "match": {
@@ -161,7 +161,7 @@
         "after": [
           {
             "result": {
-              "duration": 2623644400,
+              "duration": 3010851700,
               "status": "passed"
             },
             "match": {
@@ -174,53 +174,76 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "status": "passed"
             },
             "line": 17,
             "name": "user selects WidgetFactory button",
-            "match": {},
+            "match": {
+              "location": "com.jqueryUi.step_definitions.Utilities_Steps.userSelectsWidgetFactoryButton()"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "status": "passed"
             },
             "line": 18,
-            "name": "user click on all 3 color me buttons",
-            "match": {},
+            "name": "user click on all 3 color buttons",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 18
+                }
+              ],
+              "location": "com.jqueryUi.step_definitions.Utilities_Steps.userClickOnAllColorButtons(int)"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1004400,
-              "status": "skipped"
+              "status": "passed"
             },
             "line": 19,
             "name": "the color me should change",
-            "match": {},
+            "match": {
+              "location": "com.jqueryUi.step_definitions.Utilities_Steps.theColorMeShouldChange()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "skipped"
+              "status": "passed"
             },
-            "line": 21,
-            "name": "user click twice on Next button then twice on Previous button",
+            "line": 20,
+            "name": "user clicks on Toggle disabled option",
             "match": {
-              "location": "com.jqueryUi.step_definitions.Utilities_Steps.userClickTwiceOnNextButtonThenTwiceOnPreviousButton()"
+              "location": "com.jqueryUi.step_definitions.Utilities_Steps.userClicksOnToggleDisabledOption()"
             },
-            "keyword": "When "
+            "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 998100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "when user click again on cnage the color he should not be able to change it",
+            "match": {
+              "location": "com.jqueryUi.step_definitions.Utilities_Steps.whenUserClickAgainOnCnageTheColorHeShouldNotBeAbleToChangeIt()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
             },
             "line": 22,
-            "name": "the picture should website should display default picture",
+            "name": "user clicks on go green all the squares should cnage to color green",
             "match": {
-              "location": "com.jqueryUi.step_definitions.Utilities_Steps.thePictureShouldWebsiteShouldDisplayDefaultPicture()"
+              "location": "com.jqueryUi.step_definitions.Utilities_Steps.userClicksOnGoGreenAllTheSquaresShouldCnageToColorGreen()"
             },
-            "keyword": "Then "
+            "keyword": "When "
           }
         ],
         "tags": [
