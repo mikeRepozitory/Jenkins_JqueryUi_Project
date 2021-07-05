@@ -1,25 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="12.455">
-    <testcase classname="Interactions" name="Successfully selects AddClass" time="6.832">
-        <system-out>
-            <![CDATA[Given user goes to "https://jqueryui.com/"..................................passed
-Then user selects Position button...........................................passed
-Then user click on Image Cycler.............................................passed
-When user click twice on Next button then twice on Previous button..........passed
-Then the picture should website should display default picture..............passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Interactions" name="Successfully selects WidgetFactory colors" time="5.286">
-        <system-out>
-            <![CDATA[Given user goes to "https://jqueryui.com/"..................................passed
-Then user selects WidgetFactory button......................................passed
-Then user click on all 3 color buttons......................................passed
-And the color me should change..............................................passed
-Then user clicks on Toggle disabled option..................................passed
-And when user click again on cnage the color he should not be able to change it.passed
-When user clicks on go green all the squares should cnage to color green....passed
-]]>
-        </system-out>
-    </testcase>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="10.649">
+<testcase classname="Interactions" name="Successfully Sorts items" time="10.304">
+<system-out><![CDATA[Then user selects Sortable button...........................................passed
+Then user clicks on Sortable element and moves it down......................passed
+]]></system-out>
+</testcase>
 </testsuite>

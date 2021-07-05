@@ -3,38 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 1001900,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user goes to \"https://jqueryui.com/\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"https://jqueryui.com/\"",
-                  "offset": 13
-                }
-              ],
-              "location": "com.jqueryUi.step_definitions.Interactions_Steps.user_goes_to(java.lang.String)"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-07-05T18:42:25.762Z",
+        "start_timestamp": "2021-07-05T23:01:19.486Z",
         "before": [
           {
             "result": {
-              "duration": 4192546800,
+              "duration": 5359000000,
               "status": "passed"
             },
             "match": {
@@ -42,14 +15,14 @@
             }
           }
         ],
-        "line": 8,
-        "name": "Successfully selects AddClass",
+        "line": 26,
+        "name": "Successfully Sorts items",
         "description": "",
-        "id": "interactions;successfully-selects-addclass",
+        "id": "interactions;successfully-sorts-items",
         "after": [
           {
             "result": {
-              "duration": 2625778100,
+              "duration": 2697000000,
               "status": "passed"
             },
             "match": {
@@ -62,196 +35,35 @@
         "steps": [
           {
             "result": {
+              "duration": 657000000,
               "status": "passed"
             },
-            "line": 9,
-            "name": "user selects Position button",
+            "line": 27,
+            "name": "user selects Sortable button",
             "match": {
-              "location": "com.jqueryUi.step_definitions.Utilities_Steps.userSelectsPositionButton()"
+              "location": "com.jqueryUi.step_definitions.Interactions_Steps.user_selects_sortable_button()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 997200,
+              "duration": 1576000000,
               "status": "passed"
             },
-            "line": 10,
-            "name": "user click on Image Cycler",
+            "line": 28,
+            "name": "user clicks on Sortable element and moves it down",
             "match": {
-              "location": "com.jqueryUi.step_definitions.Utilities_Steps.userClickOnImageCycler()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user click twice on Next button then twice on Previous button",
-            "match": {
-              "location": "com.jqueryUi.step_definitions.Utilities_Steps.userClickTwiceOnNextButtonThenTwiceOnPreviousButton()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "the picture should website should display default picture",
-            "match": {
-              "location": "com.jqueryUi.step_definitions.Utilities_Steps.thePictureShouldWebsiteShouldDisplayDefaultPicture()"
+              "location": "com.jqueryUi.step_definitions.Interactions_Steps.user_clicks_on_sortable_element_and_moves_it_down()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@Utilities"
+            "name": "@Interactions"
           },
           {
-            "name": "@Position"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user goes to \"https://jqueryui.com/\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"https://jqueryui.com/\"",
-                  "offset": 13
-                }
-              ],
-              "location": "com.jqueryUi.step_definitions.Interactions_Steps.user_goes_to(java.lang.String)"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-07-05T18:42:32.659Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2262159600,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.jqueryUi.base.Hook.beforeEachScenario()"
-            }
-          }
-        ],
-        "line": 16,
-        "name": "Successfully selects WidgetFactory colors",
-        "description": "",
-        "id": "interactions;successfully-selects-widgetfactory-colors",
-        "after": [
-          {
-            "result": {
-              "duration": 3010851700,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.jqueryUi.base.Hook.afterEachScenario()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "user selects WidgetFactory button",
-            "match": {
-              "location": "com.jqueryUi.step_definitions.Utilities_Steps.userSelectsWidgetFactoryButton()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "user click on all 3 color buttons",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 18
-                }
-              ],
-              "location": "com.jqueryUi.step_definitions.Utilities_Steps.userClickOnAllColorButtons(int)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "the color me should change",
-            "match": {
-              "location": "com.jqueryUi.step_definitions.Utilities_Steps.theColorMeShouldChange()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "user clicks on Toggle disabled option",
-            "match": {
-              "location": "com.jqueryUi.step_definitions.Utilities_Steps.userClicksOnToggleDisabledOption()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 998100,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "when user click again on cnage the color he should not be able to change it",
-            "match": {
-              "location": "com.jqueryUi.step_definitions.Utilities_Steps.whenUserClickAgainOnCnageTheColorHeShouldNotBeAbleToChangeIt()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "user clicks on go green all the squares should cnage to color green",
-            "match": {
-              "location": "com.jqueryUi.step_definitions.Utilities_Steps.userClicksOnGoGreenAllTheSquaresShouldCnageToColorGreen()"
-            },
-            "keyword": "When "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Utilities"
-          },
-          {
-            "name": "@WidgetFactory"
+            "name": "@Sortable"
           }
         ]
       }
@@ -260,10 +72,10 @@
     "description": "",
     "id": "interactions",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/interactions_feature/Utilities.feature",
+    "uri": "file:src/test/resources/features/interactions_feature/Interactions.feature",
     "tags": [
       {
-        "name": "@Utilities",
+        "name": "@Interactions",
         "type": "Tag",
         "location": {
           "line": 1,

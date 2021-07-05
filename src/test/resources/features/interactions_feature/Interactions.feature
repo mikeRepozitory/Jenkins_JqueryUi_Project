@@ -1,9 +1,6 @@
 @Interactions
 Feature: Interactions
 
-  Background:
-    Given user goes to "https://jqueryui.com/"
-
   @Draggable
   Scenario: Successfully drag box around
     Then  user selects Draggable button
@@ -29,4 +26,4 @@ Feature: Interactions
   Scenario: Successfully Sorts items
     Then  user selects Sortable button
     Then user clicks on Sortable element and moves it down
-    Then user tries to move another Sortable element
+
