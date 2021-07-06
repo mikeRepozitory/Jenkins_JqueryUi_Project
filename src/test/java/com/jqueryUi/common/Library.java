@@ -1,6 +1,7 @@
 package com.jqueryUi.common;
 
 import static com.jqueryUi.base.Hook.*;
+
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -251,6 +252,7 @@ public class Library {
         }
     }
 
+
     public void selectDropDownByVisibleText(String visibleText, By by) {
         if (by instanceof By.ByXPath || by instanceof By.ByCssSelector || by instanceof By.ById || by instanceof By.ByClassName || by instanceof By.ByName
                 || by instanceof By.ByTagName || by instanceof By.ByLinkText || by instanceof By.ByPartialLinkText) {
@@ -260,6 +262,13 @@ public class Library {
         } else {
             System.err.println("Element not found");
         }
+    }
+
+    public WebElement selectDropDownByVisibleText(WebElement elements, String visibleText) {
+        Select select = new Select(elements);
+        select.selectByVisibleText(visibleText);
+        return elements;
+
     }
 
 

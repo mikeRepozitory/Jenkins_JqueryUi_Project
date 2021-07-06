@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="14" time="149.114">
+<testcase classname="Interactions" name="Successfully selects Accordion selections" time="22.158">
+<system-out><![CDATA[Then user selects Accordion button..........................................passed
+Then user click on Accordion Sections one by one all 4 elements.............passed
+]]></system-out>
+</testcase>
+<testcase classname="Interactions" name="Successfully searches something on Autocomplete bar" time="11.588">
+<system-out><![CDATA[Then user selects Autocomplete button.......................................passed
+Then user click on search and types "ja"....................................passed
+Then user should be able to select "Java" from the suggested options........passed
+]]></system-out>
+</testcase>
+<testcase classname="Interactions" name="Successfully test by clicking all the Buttons available" time="11.282">
+<system-out><![CDATA[Then user selects Button Widgets............................................passed
+Then clicking all the available Buttons.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Interactions" name="Successfully test all the CheckBoxRadio" time="11.79">
+<system-out><![CDATA[Then user selects Checkboxradio Widgets.....................................passed
+Then clicking all the available Checkboxradio...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Interactions" name="Successfully test all ControlGroup" time="13.109">
+<system-out><![CDATA[Then user selects Controlgroup Widget.......................................passed
+Then user selects car type Full size car....................................passed
+Then user selects type "Automatic" car......................................passed
+Then user add "Insurance" to the rental.....................................passed
+Then user selects "1" vehicle and clicks on Book now........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Interactions" name="Successfully picks a date" time="10.289">
+<system-out><![CDATA[Then user selects Datepicker Widget.........................................passed
+Then user clicks on date picker and selects  July first and  verifies that the correct data is "07/01/2021".passed
+]]></system-out>
+</testcase>
+<testcase classname="Interactions" name="Successfully moved, resized and closed with the 'x' icon" time="8.613">
+<system-out><![CDATA[Then user selects Dialog Widget.............................................passed
+Then user moves Dialog box around...........................................passed
+Then user resizes the box...................................................passed
+Then user closes the box by clicking X......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Interactions" name="Successfully selects Rock classic Music" time="8.925">
+<system-out><![CDATA[Then user selects Menu Widget...............................................passed
+Then user hover over the music menu.........................................passed
+Then user hover over Rock...................................................passed
+Then user hover over classic and clicks on it...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Interactions" name="Progressbar Widget works as per requirement docs" time="8.772">
+<system-out><![CDATA[Then user selects Progressbar Widget then selects Indeterminate Value.......passed
+Then user clicks on Random Value - Determinate couple times make sure works.passed
+Then user clicks on Indeterminate 1 time make sure ir works.................passed
+Then user clicks on Random Color couple times make sure works...............passed
+]]></system-out>
+</testcase>
+<testcase classname="Interactions" name="SelectMenu Widget works as per requirement docs" time="8.964">
+<system-out><![CDATA[Then user selects SelectMenu Widget.........................................passed
+Then user click on Select a speed and select "Medium".......................passed
+And user click on Select a file and select "jQuery.js"......................passed
+And user click on Select a number and select "1"............................passed
+And user click on Select a title and select "Mr."...........................passed
+Then user verifies that all selected options are displayed..................passed
+]]></system-out>
+</testcase>
+<testcase classname="Interactions" name="Slider Widget works as per requirement docs" time="8.009">
+<system-out><![CDATA[Then user selects Slider Widget.............................................passed
+Then user click on Slider handle and move it to the right and back to the left.passed
+]]></system-out>
+</testcase>
+<testcase classname="Interactions" name="Spinner Widget works as per requirement docs" time="7.872">
+<system-out><![CDATA[Then user selects Spinner Widget............................................passed
+Then user click on Select a value and types "8".............................passed
+And user clicks on Toggle disable enable button twice.......................passed
+And user clicks on Toggle widget button twice...............................passed
+And user clicks on Set value to 5 ones......................................passed
+Then user clicks on Get value...............................................passed
+Then the pop box should display number "5"..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Interactions" name="Tabs Widget works as per requirement docs" time="8.349">
+<system-out><![CDATA[Then user selects Tabs Widget...............................................passed
+Then user click on every tab................................................passed
+And Tabs should work property...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Interactions" name="Tooltip Widget works as per requirement docs" time="8.403">
+<system-out><![CDATA[Then user selects Tooltip Widget............................................passed
+Then user click on every avalable tab.......................................passed
+And Tooltip should work property............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

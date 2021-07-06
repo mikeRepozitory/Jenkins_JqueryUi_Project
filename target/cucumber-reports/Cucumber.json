@@ -1,0 +1,1254 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-06T22:15:54.388Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11835000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.jqueryUi.base.Hook.beforeEachScenario()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Successfully selects Accordion selections",
+        "description": "",
+        "id": "interactions;successfully-selects-accordion-selections",
+        "after": [
+          {
+            "result": {
+              "duration": 3356000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.jqueryUi.base.Hook.afterEachScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1787000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user selects Accordion button",
+            "match": {
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.user_selects_accordion_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5142000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on Accordion Sections one by one all 4 elements",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 48
+                }
+              ],
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.user_click_on_accordion_sections_one_by_one_all_elements(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Widgets"
+          },
+          {
+            "name": "@Accordion"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-06T22:16:16.677Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6051000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.jqueryUi.base.Hook.beforeEachScenario()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Successfully searches something on Autocomplete bar",
+        "description": "",
+        "id": "interactions;successfully-searches-something-on-autocomplete-bar",
+        "after": [
+          {
+            "result": {
+              "duration": 3349000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.jqueryUi.base.Hook.afterEachScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1480000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user selects Autocomplete button",
+            "match": {
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.userSelectsAutocompleteButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 695000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click on search and types \"ja\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ja\"",
+                  "offset": 31
+                }
+              ],
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.userClickOnSearchAndTypes(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should be able to select \"Java\" from the suggested options",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Java\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.userShouldBeAbleToSelectFromTheSuggestedOptions(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Widgets"
+          },
+          {
+            "name": "@Autocomplete"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-06T22:16:28.284Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5412000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.jqueryUi.base.Hook.beforeEachScenario()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Successfully test by clicking all the Buttons available",
+        "description": "",
+        "id": "interactions;successfully-test-by-clicking-all-the-buttons-available",
+        "after": [
+          {
+            "result": {
+              "duration": 3628000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.jqueryUi.base.Hook.afterEachScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1305000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user selects Button Widgets",
+            "match": {
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.userSelectsButtonWidgets()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 935000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "clicking all the available Buttons",
+            "match": {
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.clickingAllTheAvailableButtons()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Widgets"
+          },
+          {
+            "name": "@Button"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-06T22:16:39.585Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5801000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.jqueryUi.base.Hook.beforeEachScenario()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Successfully test all the CheckBoxRadio",
+        "description": "",
+        "id": "interactions;successfully-test-all-the-checkboxradio",
+        "after": [
+          {
+            "result": {
+              "duration": 3356000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.jqueryUi.base.Hook.afterEachScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1163000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user selects Checkboxradio Widgets",
+            "match": {
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.userSelectsCheckboxradioWidgets()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1466000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "clicking all the available Checkboxradio",
+            "match": {
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.clickingAllTheAvailableCheckboxradio()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Widgets"
+          },
+          {
+            "name": "@CheckBoxRadio"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-06T22:16:51.394Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7399000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.jqueryUi.base.Hook.beforeEachScenario()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Successfully test all ControlGroup",
+        "description": "",
+        "id": "interactions;successfully-test-all-controlgroup",
+        "after": [
+          {
+            "result": {
+              "duration": 3186000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.jqueryUi.base.Hook.afterEachScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 888000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user selects Controlgroup Widget",
+            "match": {
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.userSelectsControlgroupWidget()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 714000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user selects car type Full size car",
+            "match": {
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.userSelectsCarTypeFullSizeCar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 194000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user selects type \"Automatic\" car",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Automatic\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.userSelectsTypeCar(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 223000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user add \"Insurance\" to the rental",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Insurance\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.userAddToTheRental(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 499000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user selects \"1\" vehicle and clicks on Book now",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.userSelectsVehicleAndClicksOnBookNow(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Widgets"
+          },
+          {
+            "name": "@ControlGroup"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-06T22:17:04.519Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5475000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.jqueryUi.base.Hook.beforeEachScenario()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Successfully picks a date",
+        "description": "",
+        "id": "interactions;successfully-picks-a-date",
+        "after": [
+          {
+            "result": {
+              "duration": 3397000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.jqueryUi.base.Hook.afterEachScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 973000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user selects Datepicker Widget",
+            "match": {
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.userSelectsDatepickerWidget()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 442000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user clicks on date picker and selects  July first and  verifies that the correct data is \"07/01/2021\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"07/01/2021\"",
+                  "offset": 90
+                }
+              ],
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.userClicksOnDatePickerAndSelectsJulyFirstAndVerifiesThatTheCorrectDataIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Widgets"
+          },
+          {
+            "name": "@DatePicker"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-06T22:17:14.819Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5365000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.jqueryUi.base.Hook.beforeEachScenario()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "Successfully moved, resized and closed with the \u0027x\u0027 icon",
+        "description": "",
+        "id": "interactions;successfully-moved--resized-and-closed-with-the--x--icon",
+        "after": [
+          {
+            "result": {
+              "duration": 3241000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.jqueryUi.base.Hook.afterEachScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user selects Dialog Widget",
+            "match": {
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.userSelectsDialogWidget()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "user moves Dialog box around",
+            "match": {
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.userMovesDialogBoxAround()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user resizes the box",
+            "match": {
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.userResizesTheBox()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user closes the box by clicking X",
+            "match": {
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.userClosesTheBoxByClickingX()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Widgets"
+          },
+          {
+            "name": "@Dialog"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-06T22:17:23.456Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5588000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.jqueryUi.base.Hook.beforeEachScenario()"
+            }
+          }
+        ],
+        "line": 47,
+        "name": "Successfully selects Rock classic Music",
+        "description": "",
+        "id": "interactions;successfully-selects-rock-classic-music",
+        "after": [
+          {
+            "result": {
+              "duration": 3329000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.jqueryUi.base.Hook.afterEachScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user selects Menu Widget",
+            "match": {
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.userSelectsMenuWidget()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user hover over the music menu",
+            "match": {
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.userHoverOverTheMusicMenu()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "user hover over Rock",
+            "match": {
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.userHoverOverRock()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user hover over classic and clicks on it",
+            "match": {
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.userHoverOverClassicAndClicksOnIt()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Widgets"
+          },
+          {
+            "name": "@Menu"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-06T22:17:32.393Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5556000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.jqueryUi.base.Hook.beforeEachScenario()"
+            }
+          }
+        ],
+        "line": 54,
+        "name": "Progressbar Widget works as per requirement docs",
+        "description": "",
+        "id": "interactions;progressbar-widget-works-as-per-requirement-docs",
+        "after": [
+          {
+            "result": {
+              "duration": 3207000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.jqueryUi.base.Hook.afterEachScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "user selects Progressbar Widget then selects Indeterminate Value",
+            "match": {
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.userSelectsProgressbarWidgetThenSelectsIndeterminateValue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "user clicks on Random Value - Determinate couple times make sure works",
+            "match": {
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.userClicksOnRandomValueDeterminateCoupleTimesMakeSureWorks()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "user clicks on Indeterminate 1 time make sure ir works",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 29
+                }
+              ],
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.userClicksOnIndeterminateTimeMakeSureIrWorks(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "user clicks on Random Color couple times make sure works",
+            "match": {
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.userClicksOnRandomColorCoupleTimesMakeSureWorks()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Widgets"
+          },
+          {
+            "name": "@Progressbar"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-06T22:17:41.178Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5699000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.jqueryUi.base.Hook.beforeEachScenario()"
+            }
+          }
+        ],
+        "line": 61,
+        "name": "SelectMenu Widget works as per requirement docs",
+        "description": "",
+        "id": "interactions;selectmenu-widget-works-as-per-requirement-docs",
+        "after": [
+          {
+            "result": {
+              "duration": 3257000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.jqueryUi.base.Hook.afterEachScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "user selects SelectMenu Widget",
+            "match": {
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.userSelectsSelectMenuWidget()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "user click on Select a speed and select \"Medium\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Medium\"",
+                  "offset": 40
+                }
+              ],
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.userClickOnSelectASpeedAndSelect(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "user click on Select a file and select \"jQuery.js\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jQuery.js\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.userClickOnSelectAFileAndSelect(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "user click on Select a number and select \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 41
+                }
+              ],
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.userClickOnSelectANumberAndSelect(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "user click on Select a title and select \"Mr.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mr.\"",
+                  "offset": 40
+                }
+              ],
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.userClickOnSelectATitleAndSelect(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "user verifies that all selected options are displayed",
+            "match": {
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.userVerifiesThatAllSelectedOptionsAreDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Widgets"
+          },
+          {
+            "name": "@SelectMenu"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-06T22:17:50.153Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5057000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.jqueryUi.base.Hook.beforeEachScenario()"
+            }
+          }
+        ],
+        "line": 70,
+        "name": "Slider Widget works as per requirement docs",
+        "description": "",
+        "id": "interactions;slider-widget-works-as-per-requirement-docs",
+        "after": [
+          {
+            "result": {
+              "duration": 2950000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.jqueryUi.base.Hook.afterEachScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "user selects Slider Widget",
+            "match": {
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.userSelectsSliderWidget()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "user click on Slider handle and move it to the right and back to the left",
+            "match": {
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.userClickOnSliderHandleAndMoveItToTheRightAndBackToTheLeft()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Widgets"
+          },
+          {
+            "name": "@Slider"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-06T22:17:58.171Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4912000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.jqueryUi.base.Hook.beforeEachScenario()"
+            }
+          }
+        ],
+        "line": 75,
+        "name": "Spinner Widget works as per requirement docs",
+        "description": "",
+        "id": "interactions;spinner-widget-works-as-per-requirement-docs",
+        "after": [
+          {
+            "result": {
+              "duration": 2956000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.jqueryUi.base.Hook.afterEachScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "user selects Spinner Widget",
+            "match": {
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.userSelectsSpinnerWidget()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "user click on Select a value and types \"8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"8\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.userClickOnSelectAValueAndTypes(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "user clicks on Toggle disable enable button twice",
+            "match": {
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.userClicksOnToggleDisableEnableButtonTwice()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "user clicks on Toggle widget button twice",
+            "match": {
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.userClicksOnToggleWidgetButtonTwice()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "user clicks on Set value to 5 ones",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 28
+                }
+              ],
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.userClicksOnSetValueToOnes(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "user clicks on Get value",
+            "match": {
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.userClicksOnGetValue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "the pop box should display number \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.thePopBoxShouldDisplayNumber(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Widgets"
+          },
+          {
+            "name": "@Spinner"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-06T22:18:06.055Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5122000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.jqueryUi.base.Hook.beforeEachScenario()"
+            }
+          }
+        ],
+        "line": 85,
+        "name": "Tabs Widget works as per requirement docs",
+        "description": "",
+        "id": "interactions;tabs-widget-works-as-per-requirement-docs",
+        "after": [
+          {
+            "result": {
+              "duration": 3223000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.jqueryUi.base.Hook.afterEachScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "user selects Tabs Widget",
+            "match": {
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.userSelectsTabsWidget()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "user click on every tab",
+            "match": {
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.userClickOnEveryTab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "Tabs should work property",
+            "match": {
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.tabsShouldWorkProperty()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Widgets"
+          },
+          {
+            "name": "@Tabs"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-06T22:18:14.412Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5140000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.jqueryUi.base.Hook.beforeEachScenario()"
+            }
+          }
+        ],
+        "line": 91,
+        "name": "Tooltip Widget works as per requirement docs",
+        "description": "",
+        "id": "interactions;tooltip-widget-works-as-per-requirement-docs",
+        "after": [
+          {
+            "result": {
+              "duration": 3260000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.jqueryUi.base.Hook.afterEachScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "user selects Tooltip Widget",
+            "match": {
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.userSelectsTooltipWidget()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "user click on every avalable tab",
+            "match": {
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.userClickOnEveryAvalableTab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 94,
+            "name": "Tooltip should work property",
+            "match": {
+              "location": "com.jqueryUi.step_definitions.Widgets_Steps.tooltipShouldWorkProperty()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Widgets"
+          },
+          {
+            "name": "@Tooltip"
+          }
+        ]
+      }
+    ],
+    "name": "Interactions",
+    "description": "",
+    "id": "interactions",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/interactions_feature/Widgets.feature",
+    "tags": [
+      {
+        "name": "@Widgets",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

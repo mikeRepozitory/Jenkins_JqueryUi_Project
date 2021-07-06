@@ -10,9 +10,10 @@ import io.cucumber.testng.CucumberOptions;
         features = {"src/test/resources/features"},
         glue = {"com/jqueryUi"},
         dryRun = false,
-        tags = ("@Draggable")
+        tags = ("@Widgets")
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
+
 
     //h2[contains(text(),'A few of our most popular courses')]
 //*[contains(text(), 'Sauce Labs Backpack')]

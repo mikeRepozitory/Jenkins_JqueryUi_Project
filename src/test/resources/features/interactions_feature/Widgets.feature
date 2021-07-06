@@ -1,8 +1,6 @@
 @Widgets
 Feature: Interactions
 
-  Background:
-    Given user goes to "https://jqueryui.com/"
 
   @Accordion
   Scenario: Successfully selects Accordion selections
@@ -28,16 +26,15 @@ Feature: Interactions
   @ControlGroup
   Scenario: Successfully test all ControlGroup
     Then  user selects Controlgroup Widget
-    Then user selects car type "Full size car"
+    Then user selects car type Full size car
     Then user selects type "Automatic" car
-    Then user add Insurance to the rental
+    Then user add "Insurance" to the rental
     Then user selects "1" vehicle and clicks on Book now
 
   @DatePicker
   Scenario: Successfully picks a date
     Then  user selects Datepicker Widget
-    Then user clicks on date picker and selects  July 1
-    Then user verifies that the correct data is "07/01/2021"
+    Then user clicks on date picker and selects  July first and  verifies that the correct data is "07/01/2021"
 
   @Dialog
   Scenario: Successfully moved, resized and closed with the 'x' icon

@@ -1,9 +1,6 @@
 @Utilities
 Feature: Interactions
 
-  Background:
-    Given user goes to "https://jqueryui.com/"
-
   @Position
   Scenario: Successfully selects AddClass
     Then  user selects Position button
