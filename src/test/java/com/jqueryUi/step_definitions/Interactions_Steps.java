@@ -1,12 +1,12 @@
 package com.jqueryUi.step_definitions;
 
-import com.jqueryUi.base.Hook;
+import static com.jqueryUi.base.Hook.*;
 import com.jqueryUi.pages.MainPage;
 import io.cucumber.java.en.*;
 import org.openqa.selenium.WebDriver;
 
 public class Interactions_Steps {
-    MainPage mainPage = new MainPage(Hook.driver);
+    MainPage mainPage = new MainPage(driver);
 
     @Then("user selects Draggable button")
     public void user_selects_draggable_button() {

@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-All_Test_Suite" class="navigator-link">
-              <span class="suite-name border-passed">All Test Suite</span>
+              <span class="suite-name border-failed">All Test Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,7 +93,36 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">5 methods, 4 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-All_Test_Suite" class="hide-methods failed suite-All_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-All_Test_Suite -->
+                      <a href="#" panel-name="suite-All_Test_Suite" class="show-methods failed suite-All_Test_Suite"> (show)</a> <!-- show-methods failed suite-All_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-All_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="com.jqueryUi.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Successfully Drag box to the target&quot;, &quot;Optional[Interactions]&quot;)">runScenario("Successfully Drag box to the target", "Optional[Interactions]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="com.jqueryUi.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Successfully Sorts items&quot;, &quot;Optional[Interactions]&quot;)">runScenario("Successfully Sorts items", "Optional[Interactions]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="com.jqueryUi.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Successfully drag box around&quot;, &quot;Optional[Interactions]&quot;)">runScenario("Successfully drag box around", "Optional[Interactions]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="com.jqueryUi.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Successfully Resizable the widget&quot;, &quot;Optional[Interactions]&quot;)">runScenario("Successfully Resizable the widget", "Optional[Interactions]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-All_Test_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,12 +133,7 @@
                     <div class="method-list-content passed suite-All_Test_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-All_Test_Suite" title="com.jqueryUi.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Successfully selects AddClass&quot;, &quot;Optional[Interactions]&quot;)">runScenario("Successfully selects AddClass", "Optional[Interactions]")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-All_Test_Suite" title="com.jqueryUi.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Successfully selects WidgetFactory colors&quot;, &quot;Optional[Interactions]&quot;)">runScenario("Successfully selects WidgetFactory colors", "Optional[Interactions]")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-All_Test_Suite" title="com.jqueryUi.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Successfully Select one item&quot;, &quot;Optional[Interactions]&quot;)">runScenario("Successfully Select one item", "Optional[Interactions]")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-All_Test_Suite -->
@@ -124,6 +148,158 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-All_Test_Suite" class="panel All_Test_Suite">
+          <div class="suite-All_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.jqueryUi.runner.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Successfully Drag box to the target&quot;, &quot;Optional[Interactions]&quot;)">
+                  </a> <!-- runScenario("Successfully Drag box to the target", "Optional[Interactions]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Successfully Drag box to the target", "Optional[Interactions]")</span>
+                  <div class="stack-trace">org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: move target out of bounds
+  (Session info: chrome=91.0.4472.124)
+Build info: version: &apos;4.0.0-beta-4&apos;, revision: &apos;29f46d02dd&apos;
+System info: host: &apos;CRA3YCONTRA&apos;, ip: &apos;192.168.1.127&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.4&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [001251d5c267943984db8ff936bafda2, actions {actions=[org.openqa.selenium.interactions.Sequence@6a950a3b]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\WINDOWS\TEMP\scoped_dir4...}, goog:chromeOptions: {debuggerAddress: localhost:60721}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60721/devtoo..., se:cdpVersion: 91.0.4472.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 001251d5c267943984db8ff936bafda2
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:162)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:137)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:612)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:680)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:617)
+	at com.jqueryUi.pages.MainPage.droppable_box_move(MainPage.java:64)
+	at com.jqueryUi.step_definitions.Interactions_Steps.user_click_on_drag_box_and_drags_it_to_target(Interactions_Steps.java:28)
+	at ✽.user click on Drag box and drags it to target(file:///E:/QAMainFolder/All%20Projects%20Main%20folder/Cyram_LocalRepo/FINAL/Final_Jenkins_JqueryUi_Project/src/test/resources/features/interactions_feature/Interactions.feature:14)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Successfully Sorts items&quot;, &quot;Optional[Interactions]&quot;)">
+                  </a> <!-- runScenario("Successfully Sorts items", "Optional[Interactions]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Successfully Sorts items", "Optional[Interactions]")</span>
+                  <div class="stack-trace">org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: move target out of bounds
+  (Session info: chrome=91.0.4472.124)
+Build info: version: &apos;4.0.0-beta-4&apos;, revision: &apos;29f46d02dd&apos;
+System info: host: &apos;CRA3YCONTRA&apos;, ip: &apos;192.168.1.127&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.4&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cba397841c31bf3496b1d308d84e2287, actions {actions=[org.openqa.selenium.interactions.Sequence@2f4d32bf]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:64680}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64680/devtoo..., se:cdpVersion: 91.0.4472.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cba397841c31bf3496b1d308d84e2287
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:162)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:137)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:612)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:680)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:617)
+	at com.jqueryUi.pages.MainPage.selectOneSortable_Item(MainPage.java:103)
+	at com.jqueryUi.step_definitions.Interactions_Steps.user_clicks_on_sortable_element_and_moves_it_down(Interactions_Steps.java:66)
+	at ✽.user clicks on Sortable element and moves it down(file:///E:/QAMainFolder/All%20Projects%20Main%20folder/Cyram_LocalRepo/FINAL/Final_Jenkins_JqueryUi_Project/src/test/resources/features/interactions_feature/Interactions.feature:30)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Successfully drag box around&quot;, &quot;Optional[Interactions]&quot;)">
+                  </a> <!-- runScenario("Successfully drag box around", "Optional[Interactions]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Successfully drag box around", "Optional[Interactions]")</span>
+                  <div class="stack-trace">org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: move target out of bounds
+  (Session info: chrome=91.0.4472.124)
+Build info: version: &apos;4.0.0-beta-4&apos;, revision: &apos;29f46d02dd&apos;
+System info: host: &apos;CRA3YCONTRA&apos;, ip: &apos;192.168.1.127&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.4&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4de98d1a32cc3610900bd9c74ed0d703, actions {actions=[org.openqa.selenium.interactions.Sequence@2b08772d]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\WINDOWS\TEMP\scoped_dir8...}, goog:chromeOptions: {debuggerAddress: localhost:50210}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50210/devtoo..., se:cdpVersion: 91.0.4472.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4de98d1a32cc3610900bd9c74ed0d703
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:162)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:137)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:612)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:680)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:617)
+	at com.jqueryUi.pages.MainPage.draggable_box_move(MainPage.java:55)
+	at com.jqueryUi.step_definitions.Interactions_Steps.user_click_on_drag_me_around_box_and_drag_it_around(Interactions_Steps.java:18)
+	at ✽.user click on Drag me around box and drag it around(file:///E:/QAMainFolder/All%20Projects%20Main%20folder/Cyram_LocalRepo/FINAL/Final_Jenkins_JqueryUi_Project/src/test/resources/features/interactions_feature/Interactions.feature:8)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Successfully Resizable the widget&quot;, &quot;Optional[Interactions]&quot;)">
+                  </a> <!-- runScenario("Successfully Resizable the widget", "Optional[Interactions]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Successfully Resizable the widget", "Optional[Interactions]")</span>
+                  <div class="stack-trace">org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: move target out of bounds
+  (Session info: chrome=91.0.4472.124)
+Build info: version: &apos;4.0.0-beta-4&apos;, revision: &apos;29f46d02dd&apos;
+System info: host: &apos;CRA3YCONTRA&apos;, ip: &apos;192.168.1.127&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.4&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b49370e95f76ce79f1f9ea4a332cbfb0, actions {actions=[org.openqa.selenium.interactions.Sequence@2d28fb02]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:49663}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49663/devtoo..., se:cdpVersion: 91.0.4472.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b49370e95f76ce79f1f9ea4a332cbfb0
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:162)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:137)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:612)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:680)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:617)
+	at com.jqueryUi.pages.MainPage.resizable_box_move(MainPage.java:73)
+	at com.jqueryUi.step_definitions.Interactions_Steps.user_clicks_on_resizable_icon_and_try_to_adjust_i_by_making_it_smaller_or_bigger(Interactions_Steps.java:39)
+	at ✽.user clicks on Resizable icon and try to adjust i by making it smaller or bigger(file:///E:/QAMainFolder/All%20Projects%20Main%20folder/Cyram_LocalRepo/FINAL/Final_Jenkins_JqueryUi_Project/src/test/resources/features/interactions_feature/Interactions.feature:19)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-failed -->
           <div class="suite-All_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -132,20 +308,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Successfully selects AddClass&quot;, &quot;Optional[Interactions]&quot;)">
-                  </a> <!-- runScenario("Successfully selects AddClass", "Optional[Interactions]") -->
+                  <a name="runScenario(&quot;Successfully Select one item&quot;, &quot;Optional[Interactions]&quot;)">
+                  </a> <!-- runScenario("Successfully Select one item", "Optional[Interactions]") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Successfully selects AddClass", "Optional[Interactions]")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Successfully selects WidgetFactory colors&quot;, &quot;Optional[Interactions]&quot;)">
-                  </a> <!-- runScenario("Successfully selects WidgetFactory colors", "Optional[Interactions]") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Successfully selects WidgetFactory colors", "Optional[Interactions]")</span>
+                  <span class="parameters">("Successfully Select one item", "Optional[Interactions]")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -212,20 +378,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'com.jqueryUi.runner.TestRunner')
-data.setCell(0, 3, 6926);
+data.setCell(0, 3, 17394);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'com.jqueryUi.runner.TestRunner')
-data.setCell(1, 3, 5358);
+data.setCell(1, 3, 8932);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'com.jqueryUi.runner.TestRunner')
+data.setCell(2, 3, 6397);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'com.jqueryUi.runner.TestRunner')
+data.setCell(3, 3, 5610);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'com.jqueryUi.runner.TestRunner')
+data.setCell(4, 3, 5570);
 window.suiteTableData['All_Test_Suite']= { tableData: data, tableDiv: 'times-div-All_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 12 seconds</span>
+              <span class="suite-total-time">Total running time: 43 seconds</span>
               <div id="times-div-All_Test_Suite">
               </div> <!-- times-div-All_Test_Suite -->
             </div> <!-- times-div -->
@@ -257,16 +435,36 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">runScenario("Successfully selects AddClass", "Optional[Interactions]")</span>
-                <span class="method-start">626 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Successfully drag box around", "Optional[Interactions]")</span>
+                <span class="method-start">598 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">runScenario("Successfully selects WidgetFactory colors", "Optional[Interactions]")</span>
-                <span class="method-start">7554 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Successfully Drag box to the target", "Optional[Interactions]")</span>
+                <span class="method-start">9541 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Successfully Resizable the widget", "Optional[Interactions]")</span>
+                <span class="method-start">15940 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Successfully Select one item", "Optional[Interactions]")</span>
+                <span class="method-start">21512 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Successfully Sorts items", "Optional[Interactions]")</span>
+                <span class="method-start">38906 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">12913 ms</span>
+                <span class="method-start">44517 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

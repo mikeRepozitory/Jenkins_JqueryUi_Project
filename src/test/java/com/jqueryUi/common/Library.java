@@ -1,6 +1,6 @@
 package com.jqueryUi.common;
 
-import com.jqueryUi.base.Hook;
+import static com.jqueryUi.base.Hook.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -18,7 +18,6 @@ import java.util.Set;
 
 public class Library {
 
-    public static WebDriver driver = Hook.driver;
     public CustomWait customWait = new CustomWait();
     private String config_filePath = "E:\\QAMainFolder\\All Projects Main folder\\Cyram_LocalRepo\\FINAL\\Final_Jenkins_JqueryUi_Project\\src\\main\\resources\\config.properties";
 

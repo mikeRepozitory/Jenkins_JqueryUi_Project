@@ -2,12 +2,14 @@
 Feature: Interactions
 
   @Draggable
+    @issue
   Scenario: Successfully drag box around
     Then  user selects Draggable button
     Then user click on Drag me around box and drag it around
 
   @Droppable
-  Scenario: Successfully Drag box tot he target
+  @issue
+  Scenario: Successfully Drag box to the target
     Then  user selects Droppable button
     Then user click on Drag box and drags it to target
 

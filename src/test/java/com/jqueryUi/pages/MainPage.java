@@ -8,35 +8,29 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import static com.jqueryUi.base.Hook.*;
 
 import java.util.List;
 
 public class MainPage {
 
+    Actions actions = new Actions(driver);
+    Library library = new Library();
+
     public MainPage(WebDriver driver) {
+        System.out.println("in main page constructor");
         PageFactory.initElements(driver, this);
     }
 
-    WebDriver driver = Hook.driver;
-    Actions actions = new Actions(Hook.driver);
-    Library library = new Library();
+    @FindBy(xpath = "//a[@href='https://jqueryui.com/draggable/']") WebElement draggable_link;
+    @FindBy(xpath = "//div[@class='ui-widget-content ui-draggable ui-draggable-handle']") WebElement Draggable_hox;
+    @FindBy(xpath = "//iframe[@class='demo-frame']") WebElement demo_iframe;
 
-    @FindBy(xpath = "//a[@href='https://jqueryui.com/draggable/']")
-    WebElement draggable_link;
-    @FindBy(xpath = "//div[@class='ui-widget-content ui-draggable ui-draggable-handle']")
-    WebElement Draggable_hox;
-    @FindBy(xpath = "//iframe[@class='demo-frame']")
-    WebElement demo_iframe;
+    @FindBy(xpath = "//a[@href='https://jqueryui.com/droppable/']") WebElement droppable_link;
+    @FindBy(xpath = "//div[@class='ui-widget-content ui-draggable ui-draggable-handle']") WebElement droppable_source;
+    @FindBy(xpath = "//div[@class='ui-widget-header ui-droppable']") WebElement droppable_target;
 
-    @FindBy(xpath = "//a[@href='https://jqueryui.com/droppable/']")
-    WebElement droppable_link;
-    @FindBy(xpath = "//div[@class='ui-widget-content ui-draggable ui-draggable-handle']")
-    WebElement droppable_source;
-    @FindBy(xpath = "//div[@class='ui-widget-header ui-droppable']")
-    WebElement droppable_target;
-
-    @FindBy(xpath = "//a[@href='https://jqueryui.com/resizable/']")
-    WebElement resizable_link;
+    @FindBy(xpath = "//a[@href='https://jqueryui.com/resizable/']") WebElement resizable_link;
     @FindBy(xpath = "//div[@class='ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se']")
     WebElement resizable_icone;
 
@@ -59,7 +53,6 @@ public class MainPage {
     public void draggable_box_move(int xOffset, int yOffset) {
         library.switchToIFrame(demo_iframe);
         actions.dragAndDropBy(Draggable_hox, xOffset, yOffset).build().perform();
-        driver.switchTo().defaultContent();
     }
 
     public void setDroppable_link() {
@@ -69,7 +62,6 @@ public class MainPage {
     public void droppable_box_move() {
         library.switchToIFrame(demo_iframe);
         actions.dragAndDrop(droppable_source, droppable_target).build().perform();
-        driver.switchTo().defaultContent();
     }
 
     public void setResizable_link() {

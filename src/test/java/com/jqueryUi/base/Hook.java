@@ -7,11 +7,12 @@ import org.openqa.selenium.WebDriver;
 import java.util.concurrent.TimeUnit;
 
 public class Hook {
-    public static WebDriver driver;
 
+    public static WebDriver driver;
 
     @Before
     public void beforeEachScenario() {
+        System.out.println("BEFORE SCENARIO");
         driver = WebDriver_Factory.createWebDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -21,6 +22,8 @@ public class Hook {
 
     @After
     public void afterEachScenario() throws InterruptedException {
+        System.out.println("After SCENARIO");
+
         Thread.sleep(2000);
         driver.quit();
     }

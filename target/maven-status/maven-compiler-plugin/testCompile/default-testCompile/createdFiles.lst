@@ -1,8 +1,11 @@
-com\jqueryUi\step_definitions\Widgets_Steps.class
-com\jqueryUi\helper\WebDriver_Factory.class
-com\jqueryUi\runner\TestRunner.class
+com\jqueryUi\common\Library.class
 com\jqueryUi\step_definitions\Utilities_Steps.class
+com\jqueryUi\common\CustomWait.class
+com\jqueryUi\common\ElementClick.class
 com\jqueryUi\base\Hook.class
 com\jqueryUi\pages\MainPage.class
 com\jqueryUi\step_definitions\Interactions_Steps.class
 com\jqueryUi\step_definitions\Effects_Steps.class
+com\jqueryUi\step_definitions\Widgets_Steps.class
+com\jqueryUi\helper\WebDriver_Factory.class
+com\jqueryUi\runner\TestRunner.class
