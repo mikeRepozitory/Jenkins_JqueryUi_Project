@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.203 s <<< FAILURE! - in TestSuite
-com.jqueryUi.runner.TestRunner.runScenario["Successfully moved, resized and closed with the 'x' icon", "Optional[Interactions]"](1)  Time elapsed: 7.715 s  <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.598 s <<< FAILURE! - in TestSuite
+com.jqueryUi.runner.TestRunner.runScenario["Successfully selects Accordion selections", "Optional[Widgets testing]"](1)  Time elapsed: 8.19 s  <<< FAILURE!
 io.cucumber.core.exception.CucumberException: Failed to instantiate class com.jqueryUi.step_definitions.Widgets_Steps
 Caused by: java.lang.reflect.InvocationTargetException
 Caused by: org.openqa.selenium.InvalidSelectorException: 

@@ -1,4 +1,0 @@
-# Created at 2021-07-06T18:39:43.891
-Boot Manifest-JAR contains absolute paths in classpath 'E:\QAMainFolder\All Projects Main folder\Cyram_LocalRepo\FINAL\Final_Jenkins_JqueryUi_Project\target\test-classes'
-Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
-

@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="All Test Suite" duration-ms="8432" started-at="2021-07-07T12:41:10 EDT" finished-at="2021-07-07T12:41:19 EDT">
+  <suite name="All Test Suite" duration-ms="8901" started-at="2021-07-07T14:42:09 EDT" finished-at="2021-07-07T14:42:18 EDT">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.jqueryUi.runner.TestRunner@63440df3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Final_Jenkins_JqueryUi_Project" duration-ms="8432" started-at="2021-07-07T12:41:10 EDT" finished-at="2021-07-07T12:41:19 EDT">
+    <test name="Final_Jenkins_JqueryUi_Project" duration-ms="8901" started-at="2021-07-07T14:42:09 EDT" finished-at="2021-07-07T14:42:18 EDT">
       <class name="com.jqueryUi.runner.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.jqueryUi.runner.TestRunner@63440df3]" name="setUpClass" is-config="true" duration-ms="524" started-at="2021-07-07T12:41:10 EDT" finished-at="2021-07-07T12:41:11 EDT">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.jqueryUi.runner.TestRunner@63440df3]" name="setUpClass" is-config="true" duration-ms="514" started-at="2021-07-07T14:42:09 EDT" finished-at="2021-07-07T14:42:09 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.jqueryUi.runner.TestRunner@63440df3]" name="runScenario" duration-ms="7699" started-at="2021-07-07T12:41:11 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-07T12:41:19 EDT">
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.jqueryUi.runner.TestRunner@63440df3]" name="runScenario" duration-ms="8175" started-at="2021-07-07T14:42:09 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-07T14:42:18 EDT">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Successfully moved, resized and closed with the 'x' icon"]]>
+                <![CDATA["Successfully selects Accordion selections"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Optional[Interactions]"]]>
+                <![CDATA["Optional[Widgets testing]"]]>
               </value>
             </param>
           </params>
@@ -106,7 +106,7 @@ at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:110)
 at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:102)
 at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:89)
 at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:77)
-at com.jqueryUi.pages.Widgets_MainPage_JqueryUi.<init>(Widgets_MainPage_JqueryUi.java:20)
+at com.jqueryUi.pages.Widgets_MainPage_JqueryUi.<init>(Widgets_MainPage_JqueryUi.java:19)
 at com.jqueryUi.step_definitions.Widgets_Steps.<init>(Widgets_Steps.java:11)
 ... 52 more
 ]]>
@@ -115,7 +115,7 @@ at com.jqueryUi.step_definitions.Widgets_Steps.<init>(Widgets_Steps.java:11)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.jqueryUi.runner.TestRunner@63440df3]" name="tearDownClass" is-config="true" duration-ms="164" started-at="2021-07-07T12:41:19 EDT" finished-at="2021-07-07T12:41:19 EDT">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.jqueryUi.runner.TestRunner@63440df3]" name="tearDownClass" is-config="true" duration-ms="172" started-at="2021-07-07T14:42:18 EDT" finished-at="2021-07-07T14:42:18 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

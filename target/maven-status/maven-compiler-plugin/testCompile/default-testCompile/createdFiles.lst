@@ -1,5 +1,7 @@
 com\jqueryUi\common\Library.class
+com\jqueryUi\pages\Widgets_MainPage_JqueryUi.class
 com\jqueryUi\step_definitions\Utilities_Steps.class
+com\jqueryUi\pages\Interactions_MainPage_JqueryUi.class
 com\jqueryUi\common\CustomWait.class
 com\jqueryUi\common\ElementClick.class
 com\jqueryUi\base\Hook.class
