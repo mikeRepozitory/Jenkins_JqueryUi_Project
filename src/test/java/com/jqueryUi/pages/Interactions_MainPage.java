@@ -1,21 +1,18 @@
 package com.jqueryUi.pages;
 
 import com.jqueryUi.common.Library;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.*;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Assert;
-import static com.jqueryUi.base.Hook.*;
 
 import java.util.List;
 
-public class Interactions_MainPage_JqueryUi {
+public class Interactions_MainPage {
 
     Library library = new Library();
 
-    public Interactions_MainPage_JqueryUi(WebDriver driver) {
+    public Interactions_MainPage(WebDriver driver) {
         System.out.println("in main page constructor");
         PageFactory.initElements(driver, this);
     }

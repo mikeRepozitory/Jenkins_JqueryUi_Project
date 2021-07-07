@@ -1,6 +1,6 @@
 package com.jqueryUi.common;
 
-import static com.jqueryUi.base.Hook.*;
+import static com.jqueryUi.common.Hook.*;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;

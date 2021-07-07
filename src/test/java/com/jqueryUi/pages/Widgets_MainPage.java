@@ -7,15 +7,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.*;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
-import static com.jqueryUi.base.Hook.*;
 
 import java.util.List;
 
-public class Widgets_MainPage_JqueryUi {
+public class Widgets_MainPage {
 
     Library library = new Library();
 
-    public Widgets_MainPage_JqueryUi(WebDriver driver) {
+    public Widgets_MainPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
         System.out.println("in main page constructor");
     }

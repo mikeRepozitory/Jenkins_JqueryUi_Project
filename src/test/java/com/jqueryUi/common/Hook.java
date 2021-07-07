@@ -1,6 +1,5 @@
-package com.jqueryUi.base;
+package com.jqueryUi.common;
 
-import com.jqueryUi.helper.WebDriver_Factory;
 import io.cucumber.java.*;
 import org.openqa.selenium.WebDriver;
 

@@ -1,118 +1,118 @@
 package com.jqueryUi.step_definitions;
 
-import com.jqueryUi.pages.Widgets_MainPage_JqueryUi;
+import com.jqueryUi.pages.Widgets_MainPage;
 import io.cucumber.java.en.*;
 import org.testng.Assert;
 
-import static com.jqueryUi.base.Hook.*;
+import static com.jqueryUi.common.Hook.*;
 
 public class Widgets_Steps {
 
-    Widgets_MainPage_JqueryUi widgets_jqueryUi = new Widgets_MainPage_JqueryUi(driver);
+    Widgets_MainPage widgets_mainPage = new Widgets_MainPage(driver);
 
     @Then("user selects Accordion button")
     public void user_selects_accordion_button() {
-        widgets_jqueryUi.setAccordion_link();
+        widgets_mainPage.setAccordion_link();
     }
 
     @Then("user click on Accordion Sections one by one all {int} elements")
     public void user_click_on_accordion_sections_one_by_one_all_elements(Integer int1) {
-        widgets_jqueryUi.selectAllAccordionWidgets_Items();
+        widgets_mainPage.selectAllAccordionWidgets_Items();
     }
 
     @Then("user selects Autocomplete button")
     public void userSelectsAutocompleteButton() {
-        widgets_jqueryUi.setAutocomplete_link();
+        widgets_mainPage.setAutocomplete_link();
     }
 
     @Then("user click on search and types {string}")
     public void userClickOnSearchAndTypes(String keysToSend) {
-        widgets_jqueryUi.sendKeysToAutocomplete_searchBox(keysToSend);
+        widgets_mainPage.sendKeysToAutocomplete_searchBox(keysToSend);
     }
 
     @Then("user should be able to select {string} from the suggested options")
     public void userShouldBeAbleToSelectFromTheSuggestedOptions(String actual) {
-        widgets_jqueryUi.assertionEqualsMethod(actual, "Java");
+        widgets_mainPage.assertionEqualsMethod(actual, "Java");
     }
 
     @Then("user selects Button Widgets")
     public void userSelectsButtonWidgets() {
-        widgets_jqueryUi.setButton_link();
+        widgets_mainPage.setButton_link();
     }
 
     @Then("clicking all the available Buttons")
     public void clickingAllTheAvailableButtons() {
-        widgets_jqueryUi.selectAllButtons();
+        widgets_mainPage.selectAllButtons();
     }
 
     @Then("user selects Checkboxradio Widgets")
     public void userSelectsCheckboxradioWidgets() {
-        widgets_jqueryUi.setCheckboxradio_link();
+        widgets_mainPage.setCheckboxradio_link();
     }
 
     @Then("clicking all the available Checkboxradio")
     public void clickingAllTheAvailableCheckboxradio() {
-        widgets_jqueryUi.selectCheckboxRadio_Options();
+        widgets_mainPage.selectCheckboxRadio_Options();
     }
 
     @Then("user selects Controlgroup Widget")
     public void userSelectsControlgroupWidget() {
-        widgets_jqueryUi.setControlGroup_link();
+        widgets_mainPage.setControlGroup_link();
     }
 
     @Then("user selects car type Full size car")
     public void userSelectsCarTypeFullSizeCar() {
-        widgets_jqueryUi.selectControlGroupCar_Options();
+        widgets_mainPage.selectControlGroupCar_Options();
 
     }
 
     @Then("user selects type {string} car")
     public void userSelectsTypeCar(String actual) {
-        Assert.assertEquals(widgets_jqueryUi.rentalCar_Option_AddAutomatic(actual), "Automatic");
+        Assert.assertEquals(widgets_mainPage.rentalCar_Option_AddAutomatic(actual), "Automatic");
     }
 
 
     @Then("user add {string} to the rental")
     public void userAddToTheRental(String actual) {
-        Assert.assertEquals(widgets_jqueryUi.rentalCar_Option_AddInsurance(actual), "Insurance");
+        Assert.assertEquals(widgets_mainPage.rentalCar_Option_AddInsurance(actual), "Insurance");
     }
 
 
     @Then("user selects {string} vehicle and clicks on Book now")
     public void userSelectsVehicleAndClicksOnBookNow(String numberOfCars) {
-        String numberOfCarsAdded = widgets_jqueryUi.rentalCar_Option_AddNumberOfCars(numberOfCars.toString());
+        String numberOfCarsAdded = widgets_mainPage.rentalCar_Option_AddNumberOfCars(numberOfCars.toString());
        /* System.out.println("numberOfCarsAdded:  "+numberOfCarsAdded.toString());
         Assert.assertEquals(numberOfCarsAdded, "1");*/
     }
     @Then("user selects Datepicker Widget")
     public void userSelectsDatepickerWidget() {
-        widgets_jqueryUi.setDatePicker_link();
+        widgets_mainPage.setDatePicker_link();
     }
 
     @Then("user clicks on date picker and selects  July first and  verifies that the correct data is {string}")
     public void userClicksOnDatePickerAndSelectsJulyFirstAndVerifiesThatTheCorrectDataIs(String actualDate) {
-        widgets_jqueryUi.sendDateTo_DatePicker();
+        widgets_mainPage.sendDateTo_DatePicker();
         // Assert.assertEquals(actualDate, mainPage_jqueryUi.sendDateTo_DatePicker());
     }
 
     @Then("user selects Dialog Widget")
     public void userSelectsDialogWidget() {
-        widgets_jqueryUi.setDialog_link();
+        widgets_mainPage.setDialog_link();
     }
 
     @Then("user moves Dialog box around")
     public void userMovesDialogBoxAround() {
-        widgets_jqueryUi.moveDialog_boxAround(-20, 30);
+        widgets_mainPage.moveDialog_boxAround(-20, 30);
     }
 
     @Then("user resizes the box")
     public void userResizesTheBox() {
-        widgets_jqueryUi.resizeDialog_box(20, 20);
+        widgets_mainPage.resizeDialog_box(20, 20);
     }
 
     @Then("user closes the box by clicking X")
     public void userClosesTheBoxByClickingX() {
-        Boolean isCloseButtonDisplayed = widgets_jqueryUi.closeDialog_box();
+        Boolean isCloseButtonDisplayed = widgets_mainPage.closeDialog_box();
         Assert.assertTrue(isCloseButtonDisplayed);
     }
 

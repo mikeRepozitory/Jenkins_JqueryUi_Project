@@ -10,16 +10,14 @@ import io.cucumber.testng.CucumberOptions;
         features = {"src/test/resources/features"},
         glue = {"com/jqueryUi"},
         dryRun = false,
-        tags = ("@Widgets")
+        tags = ("@Interactions")
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
 
 
-    //h2[contains(text(),'A few of our most popular courses')]
-//*[contains(text(), 'Sauce Labs Backpack')]
-
-
-    //   plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" },
 
 }
 
+//h2[contains(text(),'A few of our most popular courses')]
+//*[contains(text(), 'Sauce Labs Backpack')]
+//   plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" },

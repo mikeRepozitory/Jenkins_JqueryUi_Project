@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import static com.jqueryUi.base.Hook.*;
+import static com.jqueryUi.common.Hook.*;
 
 
 import java.util.Collections;

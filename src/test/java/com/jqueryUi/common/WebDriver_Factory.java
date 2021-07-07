@@ -1,4 +1,4 @@
-package com.jqueryUi.helper;
+package com.jqueryUi.common;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
