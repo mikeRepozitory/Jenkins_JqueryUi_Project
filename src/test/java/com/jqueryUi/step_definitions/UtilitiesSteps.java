@@ -2,7 +2,7 @@ package com.jqueryUi.step_definitions;
 
 import io.cucumber.java.en.*;
 
-public class Utilities_Steps {
+public class UtilitiesSteps {
 
 
     @Then("user selects Position button")

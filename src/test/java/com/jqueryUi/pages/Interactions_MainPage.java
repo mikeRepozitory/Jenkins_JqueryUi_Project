@@ -13,7 +13,6 @@ public class Interactions_MainPage {
     Library library = new Library();
 
     public Interactions_MainPage(WebDriver driver) {
-        System.out.println("in main page constructor");
         PageFactory.initElements(driver, this);
     }
 

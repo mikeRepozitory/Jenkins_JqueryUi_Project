@@ -6,7 +6,7 @@ import org.testng.Assert;
 
 import static com.jqueryUi.common.Hook.*;
 
-public class Widgets_Steps {
+public class WidgetSteps {
 
     Widgets_MainPage widgets_mainPage = new Widgets_MainPage(driver);
 

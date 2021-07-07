@@ -16,7 +16,6 @@ public class Widgets_MainPage {
 
     public Widgets_MainPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
-        System.out.println("in main page constructor");
     }
 
     @FindBy(xpath = "//iframe[@class='demo-frame']") WebElement demo_iframe;
@@ -74,6 +73,8 @@ public class Widgets_MainPage {
     WebElement dialog_resizableHandle;
     @FindBy(className = "ui-button ui-corner-all ui-widget ui-button-icon-only ui-dialog-titlebar-close")
     WebElement dialog_closeButton;
+
+
     public void setAccordion_link() {
         accordion_link.click();
     }

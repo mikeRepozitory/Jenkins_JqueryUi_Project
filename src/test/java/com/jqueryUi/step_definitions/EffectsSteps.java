@@ -3,7 +3,7 @@ package com.jqueryUi.step_definitions;
 import io.cucumber.java.en.*;
 
 
-public class Effects_Steps {
+public class EffectsSteps {
 
     @Then("user selects AddClass button")
     public void user_selects_add_class_button() {

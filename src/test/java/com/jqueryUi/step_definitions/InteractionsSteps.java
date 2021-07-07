@@ -4,7 +4,7 @@ import static com.jqueryUi.common.Hook.*;
 import com.jqueryUi.pages.Interactions_MainPage;
 import io.cucumber.java.en.*;
 
-public class Interactions_Steps {
+public class InteractionsSteps {
     Interactions_MainPage interactions_mainPage = new Interactions_MainPage(driver);
 
     @Then("user selects Draggable button")
