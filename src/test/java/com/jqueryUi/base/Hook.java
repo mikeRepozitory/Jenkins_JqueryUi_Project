@@ -23,7 +23,6 @@ public class Hook {
     @After
     public void afterEachScenario() throws InterruptedException {
         System.out.println("After SCENARIO");
-
         Thread.sleep(2000);
         driver.quit();
     }

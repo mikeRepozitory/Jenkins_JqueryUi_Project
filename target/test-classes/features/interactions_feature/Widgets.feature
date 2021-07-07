@@ -1,6 +1,5 @@
 @Widgets
-Feature: Interactions
-
+Feature: Widgets testing
 
   @Accordion
   Scenario: Successfully selects Accordion selections
@@ -36,7 +35,7 @@ Feature: Interactions
     Then  user selects Datepicker Widget
     Then user clicks on date picker and selects  July first and  verifies that the correct data is "07/01/2021"
 
-  @Dialog
+  @DialogWidget
   Scenario: Successfully moved, resized and closed with the 'x' icon
     Then user selects Dialog Widget
     Then user moves Dialog box around

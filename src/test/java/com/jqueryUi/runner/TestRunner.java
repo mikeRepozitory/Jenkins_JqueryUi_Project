@@ -10,7 +10,7 @@ import io.cucumber.testng.CucumberOptions;
         features = {"src/test/resources/features"},
         glue = {"com/jqueryUi"},
         dryRun = false,
-        tags = ("@Widgets")
+        tags = ("@Accordion")
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
 
@@ -20,5 +20,6 @@ public class TestRunner extends AbstractTestNGCucumberTests {
 
 
     //   plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" },
+
 }
 
