@@ -17,6 +17,9 @@ public class Effects_MainPage {
         PageFactory.initElements(driver, this);
     }
 
+    public Effects_MainPage() {
+    }
+
     @FindBy(xpath = "//iframe[@class='demo-frame']")
     WebElement demo_iframe;
     @FindBy(xpath = "//a[@href='https://jqueryui.com/addClass/']")
