@@ -1,5 +1,7 @@
 package com.jqueryUi.step_definitions;
 
+import static com.jqueryUi.common.Hook.*;
+
 import com.jqueryUi.pages.Widgets_MainPage;
 import io.cucumber.java.en.*;
 import org.testng.Assert;
@@ -84,6 +86,7 @@ public class WidgetSteps {
        /* System.out.println("numberOfCarsAdded:  "+numberOfCarsAdded.toString());
         Assert.assertEquals(numberOfCarsAdded, "1");*/
     }
+
     @Then("user selects Datepicker Widget")
     public void userSelectsDatepickerWidget() {
         widgets_mainPage.setDatePicker_link();

@@ -1,9 +1,6 @@
 @Effects
 Feature: Interactions
 
-  Background:
-    Given user goes to "https://jqueryui.com/"
-
   @AddClass
   Scenario: Successfully selects AddClass
     Then  user selects AddClass button
@@ -13,7 +10,7 @@ Feature: Interactions
   Scenario: Successfully selects ColorAnimation
     Then user click ColorAnimation button
     When user click on Toggle Effect
-    Then the color should change to "red"
+    Then the color should change to "rgba(170, 0, 0, 1)"
 
   @Easing
   Scenario: Easing widgets works as per requirement docs
@@ -25,10 +22,6 @@ Feature: Interactions
   Scenario: Effect dropdown should perform as per requirement docs
     Then user click Effect button
     When user selects all the effects one by one
-    And then user runs the effects to test that each one works
+    And then user runs the effects to test that there are <15> options
 
-  @Effect
-  Scenario: Effect dropdown should perform as per requirement docs
-    Then user click Effect button
-    When user selects all the effects one by one
-    And then user runs the effects to test that each one works
+

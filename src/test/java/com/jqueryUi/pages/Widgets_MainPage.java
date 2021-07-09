@@ -4,7 +4,7 @@ import com.jqueryUi.common.Library;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.*;
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
@@ -14,19 +14,27 @@ public class Widgets_MainPage {
 
     Library library = new Library();
 
+
     public Widgets_MainPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
 
-    @FindBy(xpath = "//iframe[@class='demo-frame']") WebElement demo_iframe;
-    @FindBy(xpath = "//a[@href='https://jqueryui.com/accordion/']") WebElement accordion_link;
-    @FindBy(xpath = "//div[@id='accordion']/h3") List<WebElement> accordion_AllWidgets;
+    @FindBy(xpath = "//iframe[@class='demo-frame']")
+    WebElement demo_iframe;
+    @FindBy(xpath = "//a[@href='https://jqueryui.com/accordion/']")
+    WebElement accordion_link;
+    @FindBy(xpath = "//div[@id='accordion']/h3")
+    List<WebElement> accordion_AllWidgets;
 
-    @FindBy(xpath = "//a[@href='https://jqueryui.com/autocomplete/']") WebElement autocomplete_link;
-    @FindBy(id = "tags") WebElement autocomplete_searchBox;
+    @FindBy(xpath = "//a[@href='https://jqueryui.com/autocomplete/']")
+    WebElement autocomplete_link;
+    @FindBy(id = "tags")
+    WebElement autocomplete_searchBox;
 
-    @FindBy(xpath = "//a[@href='https://jqueryui.com/button/']") WebElement button_link;
-    @FindBy(xpath = "//button[@class='ui-button ui-corner-all ui-widget']") WebElement aButton_Element;
+    @FindBy(xpath = "//a[@href='https://jqueryui.com/button/']")
+    WebElement button_link;
+    @FindBy(xpath = "//button[@class='ui-button ui-corner-all ui-widget']")
+    WebElement aButton_Element;
     @FindBy(xpath = "//input[@class='ui-button ui-corner-all ui-widget']")
     WebElement aSubmit_Button;
     @FindBy(xpath = "//a[@class='ui-button ui-corner-all ui-widget']")
@@ -81,8 +89,7 @@ public class Widgets_MainPage {
 
 
     public void selectAllAccordionWidgets_Items() {
-        //   library.switchToIFrame(demo_iframe);
-        //   selectable_item_1k.sendKeys(Keys.CONTROL);
+
         library.switchToIFrame(demo_iframe);
         for (WebElement element : accordion_AllWidgets) {
             element.click();
@@ -223,4 +230,23 @@ public class Widgets_MainPage {
         return dialog_closeButton.isDisplayed();
     }
 
+
 }
+
+
+
+
+
+
+
+ /*   public boolean verifyLogin() {
+        return HeaderTitle.isEnabled();
+    }
+
+    public boolean errorMessageIsDisplayed() {
+        return errorMessage.isEnabled();
+    }
+
+    public boolean isLoginPageDisplayed() {
+        return loginPage.isDisplayed();
+    }*/
