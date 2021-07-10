@@ -24,4 +24,10 @@ Feature: Interactions
     When user selects all the effects one by one
     And then user runs the effects to test that there are <15> options
 
+  @RemoveClass
+  Scenario: Effect dropdown should perform as per requirement docs
+    Then user click Effect button
+    When user selects all the effects one by one
+    And then user runs the effects to test that there are <15> options
+
 

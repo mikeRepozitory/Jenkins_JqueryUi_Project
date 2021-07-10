@@ -2,15 +2,13 @@ package com.jqueryUi.step_definitions;
 
 import static com.jqueryUi.common.Hook.*;
 
-import com.jqueryUi.pages.Widgets_MainPage;
+import com.jqueryUi.pages.WidgetsPage;
 import io.cucumber.java.en.*;
 import org.testng.Assert;
 
-import static com.jqueryUi.common.Hook.*;
-
 public class WidgetSteps {
 
-    Widgets_MainPage widgets_mainPage = new Widgets_MainPage(driver);
+    WidgetsPage widgets_mainPage = new WidgetsPage(driver);
 
     @Then("user selects Accordion button")
     public void user_selects_accordion_button() {
@@ -226,17 +224,17 @@ public class WidgetSteps {
     public void tabsShouldWorkProperty() {
     }
 
-    @Then("user selects Tooltip Widget")
-    public void userSelectsTooltipWidget() {
+    @Then("user click Tooltip button")
+    public void userClickTooltipButton() {
+
     }
 
-    @Then("user click on every avalable tab")
-    public void userClickOnEveryAvalableTab() {
+    @When("user send {string} in the age box")
+    public void userSendInTheAgeBox(String arg0) {
     }
 
-    @And("Tooltip should work property")
-    public void tooltipShouldWorkProperty() {
+    @And("then user checks the title using actions class it should say {string}")
+    public void thenUserChecksTheTitleUsingActionsClassItShouldSay(String arg0) {
     }
-
 
 }

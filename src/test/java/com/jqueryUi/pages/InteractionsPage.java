@@ -8,11 +8,11 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
 
-public class Interactions_MainPage {
+public class InteractionsPage {
 
     Library library = new Library();
 
-    public Interactions_MainPage(WebDriver driver) {
+    public InteractionsPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
 

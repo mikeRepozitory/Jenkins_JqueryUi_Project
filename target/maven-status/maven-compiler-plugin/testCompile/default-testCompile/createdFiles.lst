@@ -1,0 +1,16 @@
+com\jqueryUi\pages\ExampleClass$2.class
+com\jqueryUi\pages\Interactions_MainPage.class
+com\jqueryUi\common\Library.class
+com\jqueryUi\step_definitions\InteractionsSteps.class
+com\jqueryUi\pages\ExampleClass$1.class
+com\jqueryUi\common\CustomWait.class
+com\jqueryUi\pages\EffectsPage.class
+com\jqueryUi\pages\Widgets_MainPage.class
+com\jqueryUi\step_definitions\EffectsSteps.class
+com\jqueryUi\common\Hook.class
+com\jqueryUi\step_definitions\WidgetSteps.class
+com\jqueryUi\common\WebDriver_Factory.class
+com\jqueryUi\runner\TestRunner.class
+com\jqueryUi\pages\Retry.class
+com\jqueryUi\step_definitions\UtilitiesSteps.class
+com\jqueryUi\pages\ExampleClass.class

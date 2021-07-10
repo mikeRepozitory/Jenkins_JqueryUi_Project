@@ -8,9 +8,9 @@ import io.cucumber.testng.CucumberOptions;
                 "junit:target/cucumber-reports/Cucumber.xml",
                 "html:target/cucumber-reports/Cucumber.html"},
         features = {"src/test/resources/features"},
-        glue = {"com/jqueryUi"},
+        glue = {"com.jqueryUi"},
         dryRun = false,
-        tags = ("@AddClass")
+        tags = ("@RemoveClass")
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
 

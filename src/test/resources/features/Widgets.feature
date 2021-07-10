@@ -87,10 +87,11 @@ Feature: Widgets testing
     And Tabs should work property
 
   @Tooltip
-  Scenario: Tooltip Widget works as per requirement docs
-    Then user selects Tooltip Widget
-    Then user click on every avalable tab
-    And  Tooltip should work property
+  Scenario: Succesfully check that Tooltip works after sanding the data
+    Then user click Tooltip button
+    When user send "25" in the age box
+    And then user checks the title using actions class it should say "We ask for your age only for statistical purposes."
+
 
 
 

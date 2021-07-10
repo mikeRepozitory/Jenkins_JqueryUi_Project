@@ -10,12 +10,12 @@ import org.testng.Assert;
 
 import java.util.List;
 
-public class Widgets_MainPage {
+public class WidgetsPage {
 
     Library library = new Library();
 
 
-    public Widgets_MainPage(WebDriver driver) {
+    public WidgetsPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
 
