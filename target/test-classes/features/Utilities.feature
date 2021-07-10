@@ -3,11 +3,13 @@ Feature: Interactions
 
   @Position
   Scenario: Successfully selects AddClass
-    Then  user selects Position button
-    Then user click on Image Cycler
-    When user click twice on Next button then twice on Previous button
-    Then the picture should website should display default picture
-
+    When  user selects Position button
+    Then user selects my horizontal position "center"
+    Then user selects my vertical position "center"
+    Then user selects at horizontal position "center"
+    Then user selects at vertical position "center"
+    Then user selects collision horizontal position "fit"
+    Then user selects collision vertical position "center"
 
   @WidgetFactory
   Scenario: Successfully selects WidgetFactory colors

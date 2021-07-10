@@ -1,14 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="100.646">
-<testcase classname="Interactions" name="Effect dropdown should perform as per requirement docs" time="54.519">
-<system-out><![CDATA[Then user click Effect button...............................................passed
-When user selects all the effects one by one................................passed
-And then user runs the effects to test that there are <15> options..........passed
-]]></system-out>
-</testcase>
-<testcase classname="Interactions" name="Effect dropdown should perform as per requirement docs 2" time="44.738">
-<system-out><![CDATA[Then user click Effect button...............................................passed
-When user selects all the effects one by one................................passed
-And then user runs the effects to test that there are <15> options..........passed
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="9.499">
+<testcase classname="Interactions" name="Successfully selects AddClass" time="9.154">
+<system-out><![CDATA[When user selects Position button...........................................passed
+Then user selects my horizontal position "center"...........................passed
+Then user selects my vertical position "center".............................passed
+Then user selects at horizontal position "center"...........................passed
+Then user selects at vertical position "center".............................passed
+Then user selects collision horizontal position "fit".......................passed
+Then user selects collision vertical position "center"......................passed
 ]]></system-out>
 </testcase>
 </testsuite>

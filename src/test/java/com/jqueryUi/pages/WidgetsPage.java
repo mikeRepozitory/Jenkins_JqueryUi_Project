@@ -55,8 +55,7 @@ public class WidgetsPage {
     @FindBy(xpath = "//a[@href='https://jqueryui.com/controlgroup/']")
     WebElement controlgroup_link;
     // @FindBy(xpath = "(//div[@class='widget']/fieldset)[1]/div/select") WebElement rentalCarSelect_Type;
-    @FindBy(xpath = "(//span[@class='ui-selectmenu-text'])[1]")
-    WebElement rentalCarSelect_dropDown;
+    @FindBy(xpath = "(//span[@class='ui-selectmenu-text'])[1]") WebElement rentalCarSelect_dropDown;
     @FindBy(xpath = "(//div[@class='ui-menu-item-wrapper'])[2]")
     WebElement RentalCar_Option_FullSize;
     @FindBy(xpath = "(//div[@class='controlgroup ui-controlgroup ui-controlgroup-horizontal ui-helper-clearfix']/label)[2]")
